@@ -1,0 +1,26 @@
+{
+  "id": "pf2e-thaumaturge-shield",
+  "title": "PF2e - Thaumaturge Shield Implement",
+  "description": "Adiciona o Shield Implement à classe Thaumaturge para o sistema PF2e no Foundry VTT.",
+  "version": "1.0.0",
+  "authors": [
+    { "name": "Pedro Luna" }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "systems": ["pf2e"],
+  "url": "https://github.com/seu-user/pf2e-thaumaturge-shield",
+  "manifest": "https://raw.githubusercontent.com/Luna-bit-br/pf2e-thaumaturge-shield/main/module.json",
+  "download": "https://github.com/Luna-bit-br/pf2e-thaumaturge-shield/archive/refs/heads/main.zip",
+  "packs": [
+    {
+      "label": "Thaumaturge Shield Implement",
+      "type": "Item",
+      "name": "thaumaturge-shield-implement",
+      "path": "packs/thaumaturge-shield-implement.json",
+      "system": "pf2e"
+    }
+  ]
+}
