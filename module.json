@@ -27,7 +27,9 @@
       "system": "pf2e"
     }
   ],
-  "esmodules": [],
+  "esmodules": [
+    "populate-feats.js"
+  ],
   "url": "https://github.com/Luna-bit-br/pf2e-thaumaturge-shield",
   "manifest": "https://raw.githubusercontent.com/Luna-bit-br/pf2e-thaumaturge-shield/main/module.json",
   "download": "https://github.com/Luna-bit-br/pf2e-thaumaturge-shield/archive/refs/heads/main.zip"
