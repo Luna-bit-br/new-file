@@ -1,5 +1,5 @@
 Hooks.once("ready", async () => {
-  const pack = game.packs.get("pf2e-thaumaturge-shield.feats");
+  const pack = game.packs.get("pf2e-thaumaturge-shield.thaumaturge-shield-implement");
 
   if (!pack) return console.error("Compendium não encontrado!");
 
