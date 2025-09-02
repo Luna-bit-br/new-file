@@ -1,36 +1,23 @@
 {
   "id": "pf2e-thaumaturge-shield",
   "title": "PF2e - Thaumaturge Shield Implement",
-  "description": "Cria feats automatizados do Shield Implement (Thaumaturge) para PF2e.",
+  "description": "Adiciona o Shield Implement para a classe Thaumaturge, com seus benefícios e efeitos.",
   "version": "1.0.0",
-  "authors": [{ "name": "Pedro Luna" }],
-  "compatibility": {
-    "minimum": "12.330",
-    "verified": "12.343"
-  },
-  "systems": [
-    {
-      "id": "pf2e",
-      "type": "system",
-      "compatibility": {
-        "minimum": "6.12.4",
-        "verified": "6.12.4"
-      }
-    }
+  "authors": [
+    { "name": "Pedro Luna", "discord": "PedroLuna#0000" }
   ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "systems": ["pf2e"],
   "packs": [
     {
       "name": "thaumaturge-shield-implement",
       "label": "Thaumaturge Shield Implement",
-      "type": "Item",
       "path": "packs/thaumaturge-shield-implement.db",
+      "type": "Item",
       "system": "pf2e"
     }
-  ],
-  "esmodules": [
-    "populate-feats.js"
-  ],
-  "url": "https://github.com/Luna-bit-br/pf2e-thaumaturge-shield",
-  "manifest": "https://raw.githubusercontent.com/Luna-bit-br/pf2e-thaumaturge-shield/main/module.json",
-  "download": "https://github.com/Luna-bit-br/pf2e-thaumaturge-shield/archive/refs/heads/main.zip"
+  ]
 }
